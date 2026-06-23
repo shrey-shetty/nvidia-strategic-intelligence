@@ -1,0 +1,25 @@
+# NVIDIA Strategic Intelligence Agent — Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web scraping & data collection
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+feedparser>=6.0.10
+praw>=7.7.1               # Reddit API (optional — public API fallback included)
+
+# Embeddings & NLP
+sentence-transformers>=2.7.0
+
+# Vector database
+chromadb>=0.5.0
+
+# LLM (local inference via Ollama — install Ollama separately from https://ollama.com)
+# No pip package needed for Ollama; we call it via HTTP (requests)
+
+# Dashboard
+streamlit>=1.35.0
+plotly>=5.22.0
+pandas>=2.2.0
+
+# Utilities
+numpy>=1.26.0
