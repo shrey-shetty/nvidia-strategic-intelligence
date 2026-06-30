@@ -1,0 +1,34 @@
+# NVIDIA Strategic Intelligence Agent — Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── LangGraph pipeline orchestration ─────────────────────────────
+langgraph>=0.2.0
+langchain-core>=0.2.0
+
+# ── Web scraping & data collection ───────────────────────────────
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+feedparser>=6.0.10
+
+# ── Embeddings & NLP (local — no API key needed) ─────────────────
+sentence-transformers>=2.7.0
+
+# ── Vector database ───────────────────────────────────────────────
+chromadb>=0.5.0
+
+# ── LLM via Hugging Face Inference Providers (free tier, via LangChain) ──
+# Get your free token: https://huggingface.co/settings/tokens
+langchain-huggingface>=0.1.0
+huggingface_hub>=0.24.0
+python-dotenv>=1.0.0
+
+# ── Dashboard ─────────────────────────────────────────────────────
+streamlit>=1.35.0
+plotly>=5.22.0
+pandas>=2.2.0
+
+# ── Utilities ─────────────────────────────────────────────────────
+numpy>=1.26.0
+
+# ── Testing ───────────────────────────────────────────────────────
+pytest>=8.0.0
